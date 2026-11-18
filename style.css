@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Londrina Solid";
-    src: url("/resources/fonts/LondrinaSolid-Light.ttf");
+    src: url("https://app.bsd.education/resources/fonts/LondrinaSolid-Light.ttf");
 }
 
 body {
@@ -15,7 +15,7 @@ body {
     height: 600px;
     margin: 0 auto;
     position: relative;
-    background-image: url("/resources/projects/technovators-mobile-platformer-game/backgroundEmpty.png");
+    background-image: url("https://app.bsd.education/resources/projects/technovators-mobile-platformer-game/backgroundEmpty.png");
     background-size: cover;
     background-position: center center;
     overflow: hidden;
@@ -33,17 +33,17 @@ body {
 
 /* CHARACTER RUNNING SPRITE */
 .run {
-    background-image: url("/res/9f84eeed-6cd6-4962-8dcb-11d647ec4cc0/ezgif.com-crop.gif");
+    background-image: url("https://app.bsd.education/res/9f84eeed-6cd6-4962-8dcb-11d647ec4cc0/ezgif.com-crop.gif");
 }
 
 /* CHARACTER JUMPING SPRITE */
 .jump {
-    background-image: url("/res/9f84eeed-6cd6-4962-8dcb-11d647ec4cc0/da37d1b0deab74ffa600cc3a4095d4d2-removebg-preview.png");
+    background-image: url("https://app.bsd.education/res/9f84eeed-6cd6-4962-8dcb-11d647ec4cc0/da37d1b0deab74ffa600cc3a4095d4d2-removebg-preview.png");
 }
 
 /* CHARACTER CRASHING SPRITE */
 .crash {
-    background-image: url("/res/9f84eeed-6cd6-4962-8dcb-11d647ec4cc0/163-1637687_8-bit-mario-death-hd-png-download-removebg-preview.png");
+    background-image: url("https://app.bsd.education/res/9f84eeed-6cd6-4962-8dcb-11d647ec4cc0/163-1637687_8-bit-mario-death-hd-png-download-removebg-preview.png");
 }
 
 /* TILE WITHOUT GRASS */
@@ -51,18 +51,18 @@ body {
     position: absolute;
     width: 64px;
     height: 64px;
-    background-image: url("/resources/projects/technovators-mobile-platformer-game/platformPack_tile_regular.png");
+    background-image: url("https://app.bsd.education/resources/projects/technovators-mobile-platformer-game/platformPack_tile_regular.png");
     background-size: cover;
 }
 
 /* TILE WITH GRASS ON TOP */
 .top {
-    background-image: url("/resources/projects/technovators-mobile-platformer-game/platformPack_tile_top.png");
+    background-image: url("https://app.bsd.education/resources/projects/technovators-mobile-platformer-game/platformPack_tile_top.png");
 }
 
 /* COIN SPRITE */
 .coin {
-    background-image: url("/res/9f84eeed-6cd6-4962-8dcb-11d647ec4cc0/ezgif.com-resize.gif");
+    background-image: url("https://app.bsd.education/res/9f84eeed-6cd6-4962-8dcb-11d647ec4cc0/ezgif.com-resize.gif");
     background-size: contain;
     width: 30px;
     height: 30px;
